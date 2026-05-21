@@ -36,3 +36,29 @@ Sigue estos pasos para clonar el repositorio e instalar todas las dependencias n
 
 ## Instalar las dependencias requeridas:
 pip install -r requirements.txt
+
+
+
+
+---
+
+## Ejemplo de Salida (Output)
+
+El pipeline genera un flujo de video continuo con analíticas inyectadas en tiempo real. A continuación se ilustra un ejemplo del formato visual de salida:
+
+```text
++---------------------------------------------------------------------------------------------------+
+|  ANALYTICS:                                                                                       |
+|  Players Left: 5   |   Players Right: 6   |   Players Outside: 1                              |
+|  Ball Location: Mitad Izquierda          |   Players in Penalty Area: [Left: 2] [Right: 0]   |
++---------------------------------------------------------------------------------------------------+
+|                                                 |                                                 |
+|      [Player] (Rojo)                            |                                                 |
+|                                                 |                                                 |
+|                                                 |                                                 |
+|                  [Ball] (Azul)                  |                  [Player] (Rojo)                |
+|                                                 |                                                 |
+|                                                 |                                                 |
+|                                                 |                                                 |
+|                                                 |                                                 |
++---------------------------------------------------------------------------------------------------+
