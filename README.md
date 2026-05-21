@@ -4,21 +4,21 @@ Este repositorio contiene el desarrollo del proyecto final para la materia de **
 
 ---
 
-## 🚀 Descripción del Proyecto
+## Descripción del Proyecto
 El núcleo del desarrollo utiliza la arquitectura **YOLOv8** de Ultralytics (detección de objetos de una sola etapa libre de anclas) entrenada localmente mediante transferencia de conocimiento a partir de un dataset de 576 (minimo) fotogramas extraídos de la secuencia original y etiquetados manualmente cuadro por cuadro en Roboflow. 
 
 El pipeline no solo localiza los elementos, sino que implementa lógica analítica espacial calculando el centroide de cada objeto para determinar su posición exacta respecto a zonas reglamentarias fijas: mitad izquierda/derecha, áreas de penalti y fueras de banda, inyectando los indicadores directamente en la parte superior del video de salida.
 
 ---
 
-## 🛠️ Requisitos del Entorno
+## Requisitos del Entorno
 * **Sistema Operativo:** Windows / Linux / macOS
 * **Lenguaje:** Python >= 3.10
 * **Aceleración por Hardware (Recomendado):** Tarjeta Gráfica NVIDIA con soporte CUDA para optimizar el rendimiento en paralelo. El entrenamiento base se completó utilizando una GPU **NVIDIA GeForce RTX 5070**, reduciendo el tiempo por época de 2.5 minutos (en CPU) a solo 8 segundos.
 
 ---
 
-## 📦 Instalación y Configuración
+## Instalación y Configuración
 
 Sigue estos pasos para clonar el repositorio e instalar todas las dependencias necesarias en tu entorno local:
 
