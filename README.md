@@ -37,7 +37,10 @@ Sigue estos pasos para clonar el repositorio e instalar todas las dependencias n
 ## Instalar las dependencias requeridas:
 pip install -r requirements.txt
 
+---
 
+## Liga a los videos:
+https://drive.google.com/drive/folders/1nZGWs2aAw8R0OaZN3UUKbPfzTMqB8Z2I?usp=drive_link
 
 
 ---
